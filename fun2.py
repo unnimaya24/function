@@ -1,0 +1,5 @@
+n=str (input("enter the name"))
+print(n)
+print("After capitalizing first letter:")
+result = string.capwords(n)
+print(result)
