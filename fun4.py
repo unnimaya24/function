@@ -1,3 +1,11 @@
-m = [23,45,67,78,89,34]
-n = [34,89,55,56,39,67]
-print(set(m) & set(n))
+s=(input("enter the no:"))
+def sum(s):
+    n=0
+    for i in s:
+        n+=(int(i) **2)
+    print(n)
+sum(s)
+        
+
+
+

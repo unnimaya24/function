@@ -1,5 +1,6 @@
-n=str (input("enter the name"))
-print(n)
-print("After capitalizing first letter:")
-result = string.capwords(n)
-print(result)
+s=str(input("enter the name"))
+k=""
+for i in s:
+  if i.isalpha():
+    k+=i
+print (k)
