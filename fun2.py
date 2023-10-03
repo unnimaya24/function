@@ -1,4 +1,4 @@
-s=str(input("enter the name"))
+s=str(input("enter the name:"))
 k=""
 for i in s:
   if i.isalpha():
